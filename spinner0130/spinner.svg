@@ -1,36 +1,15 @@
-<svg height="24px" width="24px" role="img" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">              
-            
-            <style>
-                .spinner_circle {
-                transition-property: transform;
-                animation-name: spinner_infinite-spin;
-                animation-iteration-count: infinite;
-                animation-timing-function: linear;
-                animation-duration: 750ms;
-                }
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
 
-                @keyframes spinner_infinite-spin {
-                    from {
-                        transform: rotate(0deg);
-                        transform-origin: 50% 50%;
-                    }
-                    to {
-                        transform: rotate(360deg);
-                        transform-origin: 50% 50%;
-                    }
-                } 
-            </style>   
-    
         <circle
-              class="spinner_circle" 
-              role="presentation"
-              cx="16"
-              cy="16"
-              r="12"
-              stroke="#5c8ee6"
-              fill="none"
-              stroke-width="2"
-              stroke-dasharray="43.98226"
-              stroke-linecap="round"
-            />
-</svg>
+            cx="16"
+            cy="16"
+            r="12"
+            stroke="#5c8ee6"
+            fill="none"
+            stroke-width="2"
+            stroke-dasharray="44"
+            stroke-linecap="round"
+        >
+            <animateTransform attributeName="transform" dur="750ms" type="rotate" from="0 16 16" to="360 16 16" repeatCount="indefinite" ></animateTransform>
+        </circle>
+    </svg>

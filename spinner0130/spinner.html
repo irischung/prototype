@@ -2,73 +2,30 @@
 
 <head>
     <style type="text/css">
-        .__react-svg-spinner_circle {
-            transition-property: transform;
-            animation-name: __react-svg-spinner_infinite-spin;
-            animation-iteration-count: infinite;
-            animation-timing-function: linear;
-            animation-duration: 750ms;
-        }
 
-        @keyframes __react-svg-spinner_infinite-spin {
-            from {
-                transform: rotate(0deg)
-            }
-            to {
-                transform: rotate(360deg)
-            }
-        }
 
     </style>
+
 </head>
 
 <body>
-    <!--
-    <div>
-        <svg height="24px" width="24px" class="__react-svg-spinner_circle" role="img" viewBox="0 0 32 32">              <circle
-              role="presentation"
-              cx="16"
-              cy="16"
-              r="12"
-              stroke="#5c8ee6"
-              fill="none"
-              stroke-width="2"
-              stroke-dasharray="43.98226"
-              stroke-linecap="round"
-            />
-        </svg>
-    </div>
--->
+    <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
 
-    <!--
-    <div>
-        <svg height="24px" width="24px" id="spinner_circle" role="img" viewBox="0 0 32 32">              
-            <circle
-              role="presentation"
-              cx="16"
-              cy="16"
-              r="12"
-              stroke="#5c8ee6"
-              fill="none"
-              stroke-width="2"
-              stroke-dasharray="43.98226"
-              stroke-linecap="round"
-            />
-            <animateTransform
-                xlink:href="#spinner_circle"
-                attributeName="transform"
-                type="rotate"
-                from="0"
-                to="360"
-                dur="750ms"
-                repeatCount="indefinite"
-                      
-            />
-        </svg>
-    </div>
--->
+        <circle
+            cx="16"
+            cy="16"
+            r="12"
+            stroke="#5c8ee6"
+            fill="none"
+            stroke-width="2"
+            stroke-dasharray="44"
+            stroke-linecap="round"
+        >
+            <animateTransform attributeName="transform" dur="750ms" type="rotate" from="0 16 16" to="360 16 16" repeatCount="indefinite" ></animateTransform>
+        </circle>
+    </svg>
 
-    <div><img src="spinner.svg" /></div>
+
 
 </body>
 
