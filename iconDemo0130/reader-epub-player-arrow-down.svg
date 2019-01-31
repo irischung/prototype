@@ -1,9 +1,6 @@
-<svg width="42" height="44" viewBox="-16 -16 64 64
-" xmlns="http://www.w3.org/2000/svg">
-
-  <circle cx="16" cy="16" r="12" stroke="#5c8ee6" fill="none" stroke-width="3" stroke-dasharray="44" stroke-linecap="round">
-
-    <animateTransform attributeName="transform" dur="750ms" type="rotate" from="0 16 16" to="360 16 16" repeatCount="indefinite">
-    </animateTransform>
-  </circle>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42" height="44" viewBox="0 0 42 44">
+    <defs>
+        <path id="a" d="M16.66 9.553a.515.515 0 0 1 .73 0l.56.559a.517.517 0 0 1 0 .73l-4.933 4.933a.517.517 0 0 1-.086.113l-.559.56a.517.517 0 0 1-.73 0L6.05 10.855a.517.517 0 0 1 0-.73l.559-.56a.517.517 0 0 1 .73 0l4.653 4.653 4.666-4.666z"/>
+    </defs>
+    <use fill="#95B6EF" fill-rule="nonzero" transform="translate(9 10)" xlink:href="#a"/>
 </svg>
