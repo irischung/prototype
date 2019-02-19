@@ -42,29 +42,31 @@
         }
 
         .btn {
-            border: 1px solid blue;
-            border-radius: 2px;
-            margin: 2px;
+            border: 2px solid blue;
+            border-radius: 4px;
+            margin: 6px;
             width: 60px;
-            height: 44px;
-            background-color: blue;
-            color: white;
+            height: 40px;
+            color: blue;
+            background-color: gainsboro;
+            font-size: 1rem;
         }
 
         .menu {
             position: absolute;
             display: flex;
-            left: 550px;
+            flex-direction: column;
+            left: 710px;
 
         }
     </style>
 </head>
 
 <body>
-    <a>4s</a>
+    <a>E-Ink</a>
     <div class="menu">
-        <button class=btn type="button" style="right:0px" onclick="location.href='pagination2.html';">s=8/r=5</button>
-        <button class=btn type="button" style="right:60px" onclick="location.href='pagination3.html';">s=5</button>
+        <button class=btn type="button" style="right:0px" onclick="location.href='pagination-h5.html';">H5</button>
+        <button class=btn type="button" style="right:60px" onclick="location.href='pagination-test.html';">Test</button>
     </div>
     <div class="content">
         <img src="epubContent.png">
