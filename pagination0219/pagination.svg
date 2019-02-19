@@ -9,7 +9,7 @@
             <animate 
                 attributeName="x" 
                 attributeType="XML" 
-                dur="6s" 
+                dur="4s" 
                 values="5;19;37;48;-43;-27;-12;0;0" 
                 keyTimes="0;.12;.25;.37;.5;.62;.75;.87;1" 
                 repeatCount="indefinite" 
