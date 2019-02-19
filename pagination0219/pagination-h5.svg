@@ -1,15 +1,15 @@
 <svg width="60px" height="6px" viewBox="0 0 60 6" xmlns="http://www.w3.org/2000/svg">
 
-    <circle cx="3" cy="3" r="3" fill="#9DADC7"></circle>
-    <circle cx="21" cy="3" r="3" fill="#9DADC7"></circle>
-    <circle cx="39" cy="3" r="3" fill="#9DADC7"></circle>
-    <circle cx="57" cy="3" r="3" fill="#9DADC7"></circle>    
+    <circle cx="3" cy="3" r="3" fill="#9dadc7"></circle>
+    <circle cx="21" cy="3" r="3" fill="#9dadc7"></circle>
+    <circle cx="39" cy="3" r="3" fill="#9dadc7"></circle>
+    <circle cx="57" cy="3" r="3" fill="#9dadc7"></circle>    
 
     <rect x="6" y="0" width="60" height="6" fill="white">
             <animate 
                 attributeName="x" 
                 attributeType="XML" 
-                dur="1200ms" 
+                dur="1300ms" 
                 values="0;6;24;42;60;60;60;-54;-36;-18;0" 
                 keyTimes="0;.1;.2;.3;.4;.5;.6;.7;.8;.9;1" 
                 repeatCount="indefinite" 
