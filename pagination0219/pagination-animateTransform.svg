@@ -6,10 +6,10 @@
     <circle cx="57" cy="3" r="3" fill="black"></circle>    
 
     <rect x="6" y="0" width="60" height="6" fill="white">
-            <animate 
-                attributeName="x" 
-                attributeType="XML" 
-                dur="5000ms" 
+            <animateTransform 
+                attributeName="transform" 
+                dur="4000ms" 
+                type="translate"
                 values="0;6;24;42;60;60;60;-54;-36;-18;0" 
                 keyTimes="0;.1;.2;.3;.4;.5;.6;.7;.8;.9;1" 
                 repeatCount="indefinite" 
