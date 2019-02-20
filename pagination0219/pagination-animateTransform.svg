@@ -5,15 +5,15 @@
     <circle cx="39" cy="3" r="3" fill="black"></circle>
     <circle cx="57" cy="3" r="3" fill="black"></circle>    
 
-    <rect x="6" y="0" width="60" height="6" fill="white">
+    <rect x="0" y="0" width="60" height="6" fill="white">
             <animateTransform 
                 attributeName="transform" 
-                dur="4000ms" 
+                dur="4s" 
                 type="translate"
-                values="0;6;24;42;60;60;60;-54;-36;-18;0" 
-                keyTimes="0;.1;.2;.3;.4;.5;.6;.7;.8;.9;1" 
-                repeatCount="indefinite" 
-                calcMode="discrete" />
+                values="0;12;30;48;60;-48;-30;-12;0"
+                keyTimes="0;.12;.25;.37;.5;.62;.75;.87;1" 
+                repeatCount="indefinite"
+                calcMode="discrete"/>
     </rect>
 
 </svg>
