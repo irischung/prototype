@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      box-sizing: border-box;
+      display: flex;
+      font-weight: 300;
+      height: 100%;
+      justify-content: center;
+      margin: 0;
+      width: 100%;
+    }
+
+    .body-container {
+      font-size: 18px;
+      max-width: 680px;
+      padding: 28px 20px;
+    }
+
+    .heading {
+      display: flex;
+      padding-bottom: 36px;
+    }
+
+    .book-cover {
+      flex: 0 1 150px;
+    }
+
+    .book-cover img {
+      width: 100%;
+    }
+
+    .book-info-container {
+      flex: 1 1 100%;
+      font-size: 16px;
+      padding-left: 20px;
+    }
+
+    .book-title {
+      font-size: 22px;
+      font-weight: 500;
+      padding-bottom: 12px;
+    }
+
+    .book-data {
+      font-size: inherit;
+      padding-bottom: 4px;
+    }
+
+    .note-container {
+      line-height: 1.65;
+      padding-bottom: 40px;
+    }
+
+    .note-heading {
+      color: rgba(0,0,0,0.8);
+      display: flex;
+      font-size: 16px;
+      padding-bottom: 12px;
+    }
+
+    .note-chapter {
+      flex: 1 1 100%;
+      font-weight: 500;
+    }
+
+    .note-time {
+      flex: 0 0 150px;
+      text-align: right;
+    }
+
+    .highlight-section {
+      display: flex;
+      padding-bottom: 12px;
+    }
+
+    .highlight-mark-container {
+      align-items: center;
+      display: flex;
+      flex: 0 0 16px;
+      height: 22px;
+    }
+
+    .highlight-mark-green {
+      background-color: rgba(0,140,129,1);
+      height: 18px;
+      width: 4px;
+    }
+
+    .highlight-content-green {
+      background-color: rgba(0,140,129,0.28);
+    }
+
+    .highlight-mark-red {
+      background-color: rgba(229,104,104,1);
+      height: 18px;
+      width: 4px;
+    }
+
+    .highlight-content-red {
+      background-color: rgba(229,104,104,0.28);
+    }
+
+    .highlight-mark-yellow {
+      background-color: rgba(248,204,28,1);
+      height: 18px;
+      width: 4px;
+    }
+
+    .highlight-content-yellow {
+      background-color: rgba(248,204,28,0.28);
+    }
+
+    .highlight-mark-gray {
+      background-color: #9a9a9a;
+      height: 18px;
+      width: 4px;
+    }
+
+    .highlight-content-gray {
+      background-color: rgba(0,0,0,0.05);
+      color: #9a9a9a;
+    }
+
+    .footer {
+      color: #4c6082;
+      font-size: 16px;
+      text-align: center;
+    }
+
+    @media screen and (max-width: 480px) {
+      .heading {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 36px;
+      }
+
+      .book-cover {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 36px;
+      }
+
+      .book-cover img{
+        max-width: 240px;
+      }
+
+      .book-info-container {
+        flex: 1 1 100%;
+        font-size: 16px;
+        padding-left: 0px;
+      }
+
+      .note-heading {
+        color: rgba(0,0,0,0.8);
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+        padding-bottom: 12px;
+      }
+
+      .note-chapter {
+        flex: 1 1 100%;
+      }
+
+      .note-time {
+        flex: 0 0 100%;
+        text-align: left;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class='body-container'>
+    <div class='heading'>
+      <div class='book-cover'>
+        <img src='https://webcdn.ebook.hyread.com.tw/bookcover/153064978957085138020183810080807.jpg' />
+      </div>
+      <div class='book-info-container'>
+        <div class='book-title'>百年早餐史:現代人最重要的晨間革命,可可、咖啡與糖霜編織而成的芬芳記憶</div>
+        <div class='book-data'>克里斯穹.葛塔魯(Christian Grataloup)著;蔡孟貞譯．聯經．2018[民107]</div>
+      </div>
+    </div>
+    <div class='note-container'>
+      <div class='note-heading'>
+        <div class='note-chapter'>全球化的一餐誕生</div>
+        <div class='note-time'>2020/3/23 15:15</div>
+      </div>
+      <div class='highlight-section'>
+        <div class='highlight-mark-container'>
+          <div class='highlight-mark-green'></div>
+        </div>
+        <div class='highlight-content-green'>
+          歐洲早餐的食材來源圖，打從十九世紀起，就是一張貨真價實的世界全圖。繞著三種飲品為中心：咖啡、茶和可可；每一種飲品的農產原料都來自熱帶地區。
+        </div>
+      </div>
+      <div class='note-text'>
+        就閱讀口味來說，屬於振聾發聵的咖啡因，而非甜美的果醬可頌。西方餐桌常見的咖啡、茶、可可，細數來歷，都來自於歐洲之外各大陸，可說是一點都不天真。吃早餐很重要，認識你的早餐，一樣重要。
+      </div>
+    </div>
+    <div class='note-container'>
+      <div class='note-heading'>
+        <div class='note-chapter'>第三話 一日之首，歷史之末</div>
+        <div class='note-time'>2020/3/23 15:22</div>
+      </div>
+      <div class='highlight-section'>
+        <div class='highlight-mark-container'>
+          <div class='highlight-mark-red'></div>
+        </div>
+        <div class='highlight-content-red'>
+          尤其是具有社會性的物種（大型猿猴、狼、獅子……）。牠們共同進食時，似乎也不是毫無規範：比如誰對最搶手的食物有優先享用權，進食的先後次序，以及座位的安排等等，這無一不讓人聯想起人類的餐桌禮儀。
+        </div>
+      </div>
+      <div class='note-text'>
+        這些喧嚷熱鬧的例行公事比表面上看起來的還精采
+      </div>
+    </div>
+    <div class='note-container'>
+      <div class='note-heading'>
+        <div class='note-chapter'>三大「興奮癮品」</div>
+        <div class='note-time'>2020/3/23 15:27</div>
+      </div>
+      <div class='highlight-section'>
+        <div class='highlight-mark-container'>
+          <div class='highlight-mark-yellow'></div>
+        </div>
+        <div class='highlight-content-yellow'>
+          這些飲料的提神功效，很快的為它們贏得了近似威而剛的名聲。時至今日，可樂果依舊保有這個可以壯陽的聲名。當然，用人們對壯陽春藥的遐想來營造並維繫市場的樂觀發展，這樣的策略自十五世紀以來非常常見，舉凡引進歐洲的新鮮植物多少都擁有過這樣的名聲，只是時間長短不一罷了。朝鮮薊、蘆筍就是最好的例子。食用薊，也就是朝鮮薊，在十四世紀被端上王族的餐桌時，尤以其內含咖啡單寧酸具有抗氧化的效果而知名，儘管朝鮮薊的咖啡酸含量跟其他眾多植物一樣極其微小，它仍和咖啡一樣，在當時享有興奮提神的美名。羅馬人很早就相當偏愛地中海地區原生的蘆筍，但得要到十八世紀時，蘆筍才在歐洲蔚為風潮。其實蘆筍稱得上藥效的特性只有利尿一項，然而有好長一段時間，壯陽春藥的頭銜穩穩的安在它身上。第一位為它做廣告的名人就是老普林尼（23-79 A. D.）
+        </div>
+      </div>
+      <div class='note-text'>
+        你一定會在早餐的故事裡發現自己也摻了一腳
+      </div>
+    </div>
+    <div class='note-container'>
+      <div class='note-heading'>
+        <div class='note-chapter'>三大「興奮癮品」</div>
+        <div class='note-time'>2020/3/23 15:33</div>
+      </div>
+      <div class='highlight-section'>
+        <div class='highlight-mark-container'>
+          <div class='highlight-mark-gray'></div>
+        </div>
+        <div class='highlight-content-gray'>
+          您引用的內容已超過出版商授權的匯出上限 10%  :'(
+        </div>
+      </div>
+      <div class='note-text'>
+        巧妙地利用這個顯然平凡無奇的主題，喚起我們透過每天最稀鬆平常的習慣，思考飲食的歷史
+      </div>
+    </div>
+    <div class='footer'>來自台北市立圖書館．HyRead 電子書</div>
+  </div>
+</body>
+</html>
